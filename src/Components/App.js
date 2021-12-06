@@ -17,7 +17,7 @@ function App() {
               <h1 className="header-text">Profile</h1>
             </Accordion.Header>
             <Accordion.Body>
-              <Container className="accordion-body">
+              <Container>
                 <Profile />
               </Container>
             </Accordion.Body>

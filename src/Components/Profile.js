@@ -1,25 +1,28 @@
 import React, { Component } from "react";
+import { Row, Col } from "react-bootstrap";
+import "../styles/profile.css";
 
 class Profile extends Component {
   render() {
     return (
       <React.Fragment>
-        <h1>Saloni Subedi</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-          adipisci impedit illum molestias eligendi repellendus, voluptate
-          velit, pariatur officiis perferendis, ipsa voluptates in laboriosam
-          atque omnis. Assumenda odit provident, blanditiis facilis corrupti
-          laboriosam sapiente sequi eveniet voluptates dolor repudiandae
-          incidunt maxime pariatur eaque, quae nisi quasi facere delectus! Alias
-          corporis consequuntur saepe maiores, fugiat pariatur aperiam molestias
-          necessitatibus eius explicabo excepturi voluptatibus officia
-          repudiandae modi eos ex sunt, iusto assumenda natus. Tempore labore
-          ducimus commodi distinctio eos? Quasi, possimus voluptates porro
-          minima culpa beatae tenetur voluptatibus perspiciatis eveniet ratione
-          iure voluptate laborum corporis deleniti cumque quis aspernatur qui ea
-          officiis.
-        </p>
+        <Row className="profile-row">
+          <Col>
+            <h2>Saloni Subedi</h2>
+            <p>Aspiring Software Developer</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Senectus et netus et malesuada fames ac. Nibh ipsum consequat nisl
+              vel pretium lectus quam id. Proin libero nunc consequat interdum
+              varius sit amet mattis. Tortor pretium viverra suspendisse potenti
+              nullam ac tortor. Consequat ac felis donec et odio pellentesque. 
+            </p>
+          </Col>
+          <Col>
+            <div className="profile-photo"></div>
+          </Col>
+        </Row>
       </React.Fragment>
     );
   }

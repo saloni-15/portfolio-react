@@ -1,5 +1,5 @@
 body{
-    background-color: #E9E8E9;
+    background-color: #7F7C82;
     
 }
 .portfolio{
@@ -8,7 +8,8 @@ body{
 }
 
 .accordion-header>button{
-    background-color: #87AAAA !important;
+    background-color: #4061cf !important;
+    color: #fff !important; 
       
 }
 
@@ -18,6 +19,6 @@ body{
 }
 
 .accordion-body{
-    background-color: #C8E3D4
+    background-color: #FEF9EF
 }
 
