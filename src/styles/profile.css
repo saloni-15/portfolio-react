@@ -1,17 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
 .profile-row {
   padding: 5%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.profile-photo{
-    height: 250px;
-    width: 250px;
-    background-image: url("../Assets/saloni.PNG");
-    background-size: cover;
-    margin: auto;
-    border-radius: 100%;
-    /* background-attachment: fixed; */
-    /* background-repeat: no-repeat; */
+.profile-row h2 {
+  font-weight: 800;
+  font-size:  3rem;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.description {
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.profile-col{
+  display: flex;
+  align-items: center;
+}
+
+.profile-photo {
+  height: 250px;
+  width: 250px;
+  background-image: url("../Assets/saloni.PNG");
+  background-size: cover;
+  margin: auto;
+  border-radius: 100%;
+  border: 0.5rem solid white;
+}
+
+.icon {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.linkedin {
+  color: #0077b5 ;
+}
+
+.github {
+  color: rgb(78, 73, 73);
+}
+
+.mail {
+  color: #eb4235;
+}
+
+.insta {
+  color: #d53e74;
+}
+
+.twitter {
+  color: #54adef;
+}
+
+.linkedin:hover {
+  color: #024f79 ;
+}
+
+.github:hover {
+  color: #000;
+}
+
+.mail:hover {
+  color: #b13c33;
+}
+
+.insta:hover {
+  color: #af3d65;
+}
+
+.twitter:hover {
+  color: #417ba8;
 }

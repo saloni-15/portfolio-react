@@ -1,5 +1,5 @@
 body{
-    background-color: #7F7C82;
+    background-color: #e0d9c8;
     
 }
 .portfolio{
@@ -8,7 +8,7 @@ body{
 }
 
 .accordion-header>button{
-    background-color: #4061cf !important;
+    background-color: #EC255A !important;
     color: #fff !important; 
       
 }
@@ -22,3 +22,19 @@ body{
     background-color: #FEF9EF
 }
 
+.accordion-button::after{
+    color: #fff;
+}
+
+
+.accordion-button{
+    color: black;
+}
+
+@media(max-width:900px) {
+    .portfolio{
+        max-width: 100%;
+        margin-top: 0%;
+        padding: 0%;
+    }
+}

@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { Row, Col } from "react-bootstrap";
+import { BsLinkedin, BsGithub, BsTwitter } from "react-icons/bs";
+import { SiGmail, SiInstagram } from "react-icons/si";
 import "../styles/profile.css";
+
 
 class Profile extends Component {
   render() {
@@ -9,17 +12,23 @@ class Profile extends Component {
         <Row className="profile-row">
           <Col>
             <h2>Saloni Subedi</h2>
-            <p>Aspiring Software Developer</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Senectus et netus et malesuada fames ac. Nibh ipsum consequat nisl
-              vel pretium lectus quam id. Proin libero nunc consequat interdum
-              varius sit amet mattis. Tortor pretium viverra suspendisse potenti
-              nullam ac tortor. Consequat ac felis donec et odio pellentesque. 
+            <p className="subheading">Aspiring Software Developer</p>
+            <p className="description">
+              I'm a prefinal year Computer Science Engineering student pursuing
+              my Btech degree from Chandigarh University. I have keen interest
+              in Full Stack Web Development and I'm most passionate about giving
+              back to the community, and my goal is to pursue this passion
+              within the field of software engineering.
             </p>
+            <div className="social-icons">
+               <a className="linkedin icon" href="https://www.linkedin.com/"> <BsLinkedin /></a> 
+               <a className="github icon" href="https://www.github.com/"> <BsGithub /></a> 
+               <a className="mail icon" href=""> <SiGmail /></a> 
+               <a className="insta icon" href="https://instagram.com"> <SiInstagram /></a> 
+               <a className="twitter icon" href="https://twitter.com"> <BsTwitter /></a> 
+            </div>
           </Col>
-          <Col>
+          <Col className="profile-col">
             <div className="profile-photo"></div>
           </Col>
         </Row>
