@@ -21,11 +21,37 @@ class Profile extends Component {
               within the field of software engineering.
             </p>
             <div className="social-icons">
-               <a className="linkedin icon" href="https://www.linkedin.com/"> <BsLinkedin /></a> 
-               <a className="github icon" href="https://www.github.com/"> <BsGithub /></a> 
-               <a className="mail icon" href=""> <SiGmail /></a> 
-               <a className="insta icon" href="https://instagram.com"> <SiInstagram /></a> 
-               <a className="twitter icon" href="https://twitter.com"> <BsTwitter /></a> 
+              <a
+                className="linkedin icon"
+                href="https://www.linkedin.com/in/saloni-subedi-6939911b5/"
+              >
+                {" "}
+                <BsLinkedin />
+              </a>
+              <a className="github icon" href="https://github.com/saloni-15">
+                {" "}
+                <BsGithub />
+              </a>
+              <a className="mail icon" href="">
+                {" "}
+                <SiGmail />
+              </a>
+              <a className="insta icon" href="https://instagram.com">
+                {" "}
+                <SiInstagram />
+              </a>
+              <a className="twitter icon" href="https://twitter.com">
+                {" "}
+                <BsTwitter />
+              </a>
+              <button class="button-34" role="button">
+                <a
+                  href="https://docs.google.com/document/d/1nk-km5BhjsNz9NlVhqxrOsGLdLcHG4feEB0yrrPWIcE/edit?usp=sharing"
+                  target="_blank"
+                >
+                  Resume
+                </a>
+              </button>
             </div>
           </Col>
           <Col className="profile-col">

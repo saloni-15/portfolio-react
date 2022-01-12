@@ -1,10 +1,10 @@
-import React, { Component, useState } from "react";
+import React from "react";
 import { Container, Accordion } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Profile from "./Profile";
 import Skills from "./Skills";
 import Projects from "./Projects";
-import Resume from "./Resume";
+import Achievements from "./Achievements";
 import "../styles/style.css";
 
 function App() {
@@ -34,6 +34,16 @@ function App() {
           </Accordion.Item>
           <Accordion.Item eventKey="2">
             <Accordion.Header>
+              <h1 className="header-text">Achievements</h1>
+            </Accordion.Header>
+            <Accordion.Body>
+              <Container>
+                <Achievements />
+              </Container>
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="3">
+            <Accordion.Header>
               <h1 className="header-text">Projects</h1>
             </Accordion.Header>
             <Accordion.Body>
@@ -42,16 +52,16 @@ function App() {
               </Container>
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="3">
+          {/* <Accordion.Item eventKey="4">
             <Accordion.Header>
-              <h1 className="header-text">Resume</h1>
+              <h1 className="header-text">Kuch</h1>
             </Accordion.Header>
             <Accordion.Body>
               <Container>
                 <Resume />
               </Container>
             </Accordion.Body>
-          </Accordion.Item>
+          </Accordion.Item> */}
         </Accordion>
       </Container>
     </React.Fragment>

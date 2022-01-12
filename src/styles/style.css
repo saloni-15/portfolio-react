@@ -3,8 +3,8 @@ body{
     
 }
 .portfolio{
-    max-width: 70%;
-    margin-top: 2rem;
+    padding:2%;
+    max-width: 80%;
 }
 
 .accordion-header>button{
@@ -14,8 +14,9 @@ body{
 }
 
 .header-text{
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    color: #fff !important;
 }
 
 .accordion-body{
@@ -28,10 +29,10 @@ body{
 
 
 .accordion-button{
-    color: black;
+    color: white !important;
 }
 
-@media(max-width:900px) {
+@media(max-width:1220px) {
     .portfolio{
         max-width: 100%;
         margin-top: 0%;
